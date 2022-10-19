@@ -6,6 +6,8 @@ body{
 
     background-color:rgb(43, 226, 150);
 }
+
+
 main{
 
     background-color: rgb(189, 37, 123);
@@ -13,4 +15,8 @@ main{
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.588);
+}
+
+img.lado{
+    float: right;
 }
