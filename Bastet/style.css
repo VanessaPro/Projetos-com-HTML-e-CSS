@@ -29,16 +29,19 @@ body{
     gap: 32px;
 }
 
-.cabecalho- menu-item{
-    font-family: 'Sarala', Arial, Helvetica, sans-serif;
-    color:rgb(39, 145, 202);
-    font-weight: 400;
-    font-size: 18px;
-
+.cabecalho- {
+    font-family: 'Sarala', sans-serif;
+    color:rgb(216, 224, 229);
+    font: weight 500px;;
+    font-size:20px;
 }
 
 .conteudo{
-    border-top: 0.4px solid #b1afcf;
-    margin-bottom: 48px;
+    margin-bottom: 18px;
+    border-top: 0.4px solid
 }
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
 }
