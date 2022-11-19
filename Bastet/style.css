@@ -30,9 +30,15 @@ body{
 }
 
 .cabecalho- menu-item{
-    font-family: 'Sarala', sans-serif;
-    color:rgb(190, 152, 251);
+    font-family: 'Sarala', Arial, Helvetica, sans-serif;
+    color:rgb(39, 145, 202);
     font-weight: 400;
     font-size: 18px;
 
+}
+
+.conteudo{
+    border-top: 0.4px solid #b1afcf;
+    margin-bottom: 48px;
+}
 }
