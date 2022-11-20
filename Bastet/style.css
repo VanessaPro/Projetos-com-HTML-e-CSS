@@ -1,5 +1,5 @@
 * {
-    margin:0;
+    margin:4;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -32,16 +32,51 @@ body{
 .cabecalho- {
     font-family: 'Sarala', sans-serif;
     color:rgb(216, 224, 229);
-    font: weight 500px;;
+    font: weight 500px;
     font-size:20px;
 }
 
 .conteudo{
-    margin-bottom: 18px;
+    margin-bottom: 30px;
     border-top: 0.4px solid
 }
 
+
 .conteudo-principal{
+    font-family: 'Sarala', sans-serif;
     display: flex;
     flex-direction: row;
+    font-size: 20px;
+    align-items:center;
+    justify-content: space-around;
+    color: #240888; 
+}
+
+.conteudo- principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+    
+
+}
+
+.conteudo principal- escrito-titulo{
+    font-family: 'righteous', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: #240888;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #240888; 
+}
+
+.conteudo-principal-escrito-botao{
+    background-color:#1bbbd4
+    width: 180px;
+    height: 70px;
 }
