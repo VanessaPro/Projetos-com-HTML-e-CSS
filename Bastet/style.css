@@ -89,6 +89,10 @@ body{
 
 }
 
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgb(236,214,196,0.53);
+}
+
 .conteudo-principal-imagem{
     height: 600px;
 }
@@ -106,10 +110,28 @@ body{
     flex-direction: column;
     align-items: center;
     gap:24px;
+    color: #1d1d20;
+
 
 }
 
 .conteudo-segundario-titulo{
-    border-top: 0.4px solid #FFF2E7;
+   
     padding-top: 48px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #b4601c;
 }
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #070503;
+    
+}
+
+.rodape-imagem{
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
