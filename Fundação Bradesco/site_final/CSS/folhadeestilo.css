@@ -84,7 +84,40 @@ nav ul li a:hover{color: #b13030;}
 
 }
 
-.img-titulo{ width: 20%; height: auto; margin-left: 10px;position: relative; float: left; margin-right: 5%;}
+.img-titulo {width: 20%; height: auto; margin-left: 10px;position: relative; float: left; margin-right: 5%;}
 
-.img-titulo img {width 90%; margin-left: 10%; margin-top: 50px;}
+.img-titulo img {width: 90%; margin-left: 10%; margin-top: 50px;}
 
+#clientes-code{width: 75%;position: relative;float: left;}
+#clientes-code .config-clientes{width: 40%; border: 1px solid #b50909; margin-left: 1.5%; padding: 1%; float: left; margin-top: 30px; background: #fff;}
+#clientes-code .config-clientes img{width: 60%; margin-left: 20%; margin-bottom: 20px;}
+#clientes-code .config-clientes p{width: 90%; margin-left: 5%; font-size: 1.2em; margin-bottom: 20px; text-align: center;}
+#clientes-code .config-clientes p a{color: #111;}
+
+#container-sobre{width: 65%; margin-left: 5%; float: left; position: relative; height: 80%; background-color: #fff; top:10% ;} 
+#txt-sobre {width: 40%; float: left; position: relative; padding: 5%;}
+#txt-sobre p {width: 100%; position: relative; float: left;}
+#txt-sobre dl {width: 50%;}
+#img-conteudo-sobre {width: 45%; position: relative; float: left; padding: 2%;}
+#img-conteudo-sobre img {width: 100%;}
+
+
+#txt-contato{width: 100%;height: 100%;}
+
+#txt-contato form {width: 38%;position: relative;float: left;background-color: #fff;padding: 2%; top: 5%; min-height: 400px;}
+
+#txt-contato form label {font-weight: bolder;}
+
+#txt-contato form input {max-width: 100% ; width: 99%;height: 30%; margin-top: 10px; margin-bottom: 15px; border: solid #b50909 1px; padding-left: 1%;}  
+
+#txt-contato form textarea {max-width: 100%; width: 99%; border: solid #b50909 1px; padding-left: 1%; min-height: 100%;}
+
+#txt-contato form button {width: 30%; height: auto; cursor: pointer; background-color: #b50909; color: #fff; font-size: 1.5em; padding: 15px 0 15px 0; margin-left: 35%; margin-top: 1%;} 
+
+#txt-contato #conta-data{width: 26%; position: relative; float: left; padding: 2%; background: #b50909; color: #fff; top: 5%; margin-left: 1.5%; height: 400px;text-align: center;}
+
+#txt-contato #conta-data h3{color: #fff; text-align: center;}
+
+#txt-contato #conta-data h5{ margin-top: 6% ; margin-bottom: 4%; vertical-align: middle;} 
+
+#txt-contato #conta-data h5 img {width: 50px;}
