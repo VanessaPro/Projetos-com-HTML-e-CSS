@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="campo">
+        <h1 id="titulo">Pesquisa de Satisfação do Cliente</h1>
+        <br>
+        
+        <p id="subtitulo">Respondendo este questionário, você estará contribuindo para melhoria de nosso serviço</p>
+        <br>
+    </div class="campo">
+
+    <form>
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="tex" nome="nome" id="nome" required>
+            </div>
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type ="text" nome="sobrenome" id="sobrenome" required>
+            </div>
+           
+
+         <div class="campo">
+            <label for="email"><strong>email</strong></label>
+            <input type="email" nome="email" id="email" required> 
+         </div>
+
+        </fieldset>
+
+         <div class="campo">
+            <label><strong>Como você ficou sabendo de nosso salão?</strong></label>
+            <label>
+                <input type="radio" nome="devweb" value="internet" checked>Internet 
+            </label>
+
+            <label>
+                <input type="radio" nome="devweb" value="recomendação"> Recomendação
+            </label>
+
+            <label>
+                <input type="radio" nome="devweb" value="outro"> Outro (Por favor,especifique)
+            </label>
+            <br>
+            
+        </div>
+
+        <div class="campo">
+            <label> <strong>Com que frequência você visita o salão?</strong></label>
+            <label>
+                <input type="radio" nome="devweb" value="uma vez por semana"> Uma vez por semana
+            </label>
+
+            <label>
+                <input type="radio" nome="devweb" value="uma vez ao mês" checked> Uma vez ao mês
+            </label>
+
+            <label>
+                <input type="radio" nome="devweb" value="algumas vezs ao ano"> Algumas vezes ao Ano
+            </label>
+            <br>
+        </div>
+
+        <div class="campo">
+            <label><strong>Quais tratamentos ou serviços você mais utiliza?</strong></label>
+            <label>
+                <input type="radio" nome="devweb" value="sobrancelha"> Sobrancelha
+            </label>
+
+            <label>
+                <input type="radio" nome="devweb" value="cabelo"checked> Cabelo
+            </label>
+
+            <label>
+                <input type="radio" nome="devweb" value="manicure e pedicure"> Manicure e Pedicure
+            </label>
+
+            <label>
+                <input type="radio" nome="devweb" value=" maquiagem"> Maquiagem
+            </label>
+            <br>
+        </div>
+
+        <div class="campo">
+            <label><strong>Como você avalia nosso serviço de manicure e pedicure?</strong></label>
+            <label>
+                <input type="radio" nome="devweb" value="ótimo">Ótimo
+            </label>
+
+            <label>
+                <input type="radio" nome="devweb" value="bom" checked> Bom
+            </label>
+
+            <label>
+                <input type="radio" nome="devweb" value="poderia melhorar"> Poderia melorar
+            </label>
+            <br>
+        </div>
+
+        <div class="campo">
+            <label><strong>Como você avalia nosso serviço de cabelo?</strong></label>
+            <label>
+                <input type="radio" nome="devweb" value="otimo">Ótimo 
+            </label>
+
+            <label>
+                <input type="radio" nome="devweb" value="bom" checked> Bom
+            </label>
+
+            <label>
+                <input type="radio" nome="devweb" value="poderia melhorar"> Poderia melorar
+            </label>
+            <br>
+        </div>
+
+        <div class="campo"> 
+            <label for="avaliação para nota"><strong>Avaliação para nota</strong></label>
+            <select id="avaliação para nota">
+                <option selected disabled value=""> Selecione</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            </select>
+        </div>
+        
+        <div class="campo">
+            <br>
+            <label><strong>Sugestão de melhoria</strong></label>
+            <textarea rows="6" style="width: 26em;" id="melhoria" nome="melhoria"></textarea>
+        </div>
+        <button class="button" type="submit"> Concluído</button>
+
+    </form>
+    
+</body>
+</html>
